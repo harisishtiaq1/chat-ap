@@ -13,8 +13,8 @@ export const Auth = () => {
     }
   };
   return (
-    <Box sx={{ textAlign: "center", mt: 8 }}>
-      <Typography variant="h4" component="h4" sx={{ m: 4, fontWeight: "500",fontStyle:'italic' }}>
+    <Box sx={{ textAlign: "center", mt: 8,fontFamily:'Poppins' }}>
+      <Typography variant="h4" component="h4" sx={{ m: 4, fontWeight: "500"}}>
         Sign in with Google to Continue
       </Typography>
       <Button onClick={signInWithGoogle} variant="contained">
